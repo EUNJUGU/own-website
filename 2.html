@@ -12,6 +12,18 @@
 </script>
 <title>파충류 - 자라</title>
 <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="colors.js"></script>
+</head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GW5YT4H4E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-9GW5YT4H4E');
+  </script>
 <style>a {
   color:darkcyan;
 text-decoration: none;
@@ -33,6 +45,9 @@ text-decoration: none;
 </head>
 <body>
   <h1><a href="index.html">대표 파충류</a></h1>
+  <input type="button" value="night" onclick="
+nightDayHandler(this);
+">
   <ol>
     <li><a href="1.html" class="saw">거북이</a></li>
     <li><a href="2.html" class="saw" id="active">자라</a></li>
